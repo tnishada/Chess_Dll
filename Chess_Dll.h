@@ -11,5 +11,6 @@
     public: 
 
         static CHESS_DLL_API void Move(char [][8], int ,int , int, int); 
+		static CHESS_DLL_API bool isChecked(char [][8], char King);
       
     };
